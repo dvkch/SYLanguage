@@ -1,7 +1,9 @@
 SYLanguage
 =======
 
-Tool to switch app language without having to restart the app. 
+Very dirty way to have per-app language settings in your iOS app.
+
+When I say dirty, I mean dirty. Swizzling dirty. Unresolvable-known-issues-with-assets-catalog dirty.
 
 
 Current limitations
@@ -10,10 +12,11 @@ Current limitations
 `Assets` bundle and images don't seem to work (yet?)
 
 
-License
-===
+Deprecated
+==========
 
-Use it as you like in every project you want, redistribute with mentions of my name and don't blame me if it breaks :)
+Since iOS 13 users can freely choose the preferred language for your app, without you having to do anything. Since I haven't maintained this plugin in a while this is the best time to deprecate it.
 
--- dvkch
- 
+Read the code, share it, update it, fork it, it's all yours now. 
+
+Please do not open an issue.
